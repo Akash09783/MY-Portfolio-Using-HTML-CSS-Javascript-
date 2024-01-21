@@ -15,11 +15,13 @@
             <div class="left">Akash's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+         
+                
                 </ul>
             </div>
         </nav>
@@ -27,15 +29,68 @@
 
 
     <main>
-        <section class="first">
+        <hr>
+        <section class="firstSection">
             <div class="leftSection">
-                left
+                Hi, <br>My Name is<span class="purple"> Akash</span>
+                <br>
+                <div>and 
+                    I am a Passionate
+                    <br></div>
+                    <span id="element"></span>
             </div>
          <div class="rightSection">
-            right
+            <img src="bg.png">
          </div>
         </section>
+<hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./19362653.jpg" alt="">
+                    <div class="vertical-title">
+                       Front End Developer
+                    Developer specializing in front-end technologies
+                    Professional skilled in front-end development
+                   Expert in creating user interfaces and experiences for websites and applications
+                    </div><br>
+                    <div class="vertical-desc">
+                           I Have Created 15+ Projects
+                    </div>
+                </div>
+                <br> <br>
+               
+                
+                
+                
+                
+            </div>
+            
+
+
+
+
+
+
+
+        </section>
+
     </main>
+   
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Front End Developer', 'Back End Developer',"Full Stack Developer" ,"Web Developer"],
+          typeSpeed: 60,
+        });
+      </script>
 </body>
-<script src="script.js"></script>
+
 </html>
